@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title> Esteban Oven, Gonzalo Rubino PWA</title>
+        <!-- CSS (Bootstrap incluido)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="">
+        
+    </head>
+
+    <body>
+        <div class="container mt-5">
+            <section class="contact-form">
+                <h3>API de Clima</h3>
+
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">Ciudad</label>
+                      <input type="text" class="form-control" value="" id="inputCity">
+                    </div>
+                    
+                    <div class="col-12">
+                      <button id="sendButton" class="btn btn-primary">Consultar</button>
+                    </div>
+                  </form>
+                
+            </section>
+        </div>
+
+        <div class="container spinner d-none" id="spinner">
+            <div class="spinner-border" role="status">
+                <span class="sr-only">Actualizando...</span>
+            </div>
+        </div>
+
+        <div id="main"></div>
+        <main>
+
+        </main>
+        
+        <!-- Footer-->
+        <footer class="bg-black text-center py-5">
+            <div class="container px-5">
+                <div class="text-white-50 small">
+                    <div class="mb-2">&copy; Oven Esteban. Diseno y Programacion Web.</div>
+                    <p>DaVinci 2021</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="main.js"></script>  
+    </body>
+</html>
