@@ -1,4 +1,4 @@
-const API_KEY = "ad8b44756bb436d48b63204a61cbdd71";
+const API_KEY = " ";
 
 
 const button = document.getElementById('sendButton');
